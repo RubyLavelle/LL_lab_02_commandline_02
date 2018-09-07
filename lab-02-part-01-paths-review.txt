@@ -26,7 +26,7 @@ cd ~
 3. Write the command that you would use to change to your Desktop folder.
 ----------
 
-cd Desktop
+cd /Users/student/Desktop
 
 ==========
 4. What's the absolute path to your home directory?
