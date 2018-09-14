@@ -111,7 +111,7 @@ $ curl www.google.com
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
 
-
+<title>Google</title>
 
 ==========
 10. That's great, but what if I want to save the file?  What flag/option and option argument would I use to download the page to a file called google.html?  Run it to download the URL www.google.com.
@@ -119,7 +119,11 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 Write the command you used below.  Also copy and paste the output below.
 ----------
 
-
+~ student$ curl -o google.html www.google.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11335    0 11335    0     0   125k      0 --:--:-- --:--:-- --:--:--  125k
+ent-v314-011:~ student$ 
 
 ==========
 11. Now let's download the lab file for this homework.  First, figure out what directory you're in.
@@ -127,7 +131,10 @@ Write the command you used below.  Also copy and paste the output below.
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
 
+pwd
 
+ent-v314-011:~ student$ pwd
+/Users/student
 
 ==========
 12. If you're not in your home directory, change to it (use the shortcut).
@@ -135,7 +142,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd ~
 
 ==========
 13. So... the lab materials are located at this url:
